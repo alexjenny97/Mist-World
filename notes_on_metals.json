@@ -1,0 +1,15 @@
+{
+    "Tin":
+    {
+        "int/ext": "internal",
+        "senses affected": ["sight", "stops stun", "stops food posin", "increaded food happiness", "gets affects of nearby fights/converstations"],
+        "radius":{
+            "notes": "radius decreases when crowded.",
+            "lv1": "",
+            "lv2": "",
+            "lv3":"" 
+        },
+        "burn_type": "low",
+        "external_similar_mods":["fog of war", "food mods"]
+    }
+}
