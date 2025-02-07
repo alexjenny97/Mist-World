@@ -1,8 +1,10 @@
 {
     "Tin":
     {
+        "book_effect": "increases all senses (taste, hearing, smell, sight radius)",
         "int/ext": "internal",
-        "senses affected": ["sight", "stops stun", "stops food posin", "increaded food happiness", "gets affects of nearby fights/converstations"],
+        "senses affected": ["sight", "stops stun", "stops food posin", 
+            "increaded food happiness", "gets affects of nearby fights/converstations"],
         "radius":{
             "notes": "radius decreases when crowded.",
             "lv1": "",
@@ -11,5 +13,80 @@
         },
         "burn_type": "low",
         "external_similar_mods":["fog of war", "food mods"]
+    },
+
+    "Gold":
+    {
+        "book_effect": "makes the user see alternate versions of themselves",
+        "int/ext": "",
+        "senses affected": [],
+        "radius":{
+            "notes": "",
+            "lv1": "",
+            "lv2": "",
+            "lv3":"" 
+        },
+        "burn_type": "",
+        "external_similar_mods":[]
+    },
+
+    "Iron":
+    {
+        "book_effect": "allows the user to pull iron to them. This can move the user",
+        "int/ext": "",
+        "senses affected": [],
+        "radius":{
+            "notes": "",
+            "lv1": "",
+            "lv2": "",
+            "lv3":"" 
+        },
+        "burn_type": "",
+        "external_similar_mods":[]
+    },
+
+    "Steel":
+    {
+        "book_effect": "allows the user to push steel away from them",
+        "int/ext": "",
+        "senses affected": [],
+        "radius":{
+            "notes": "",
+            "lv1": "",
+            "lv2": "",
+            "lv3":"" 
+        },
+        "burn_type": "",
+        "external_similar_mods":[]
+    },
+
+    "Bronze": 
+    {
+        "book_effect": "allows the user to see sources of metal nearby",
+        "int/ext": "",
+        "senses affected": [],
+        "radius":{
+            "notes": "",
+            "lv1": "",
+            "lv2": "",
+            "lv3":"" 
+        },
+        "burn_type": "",
+        "external_similar_mods":[]
+    },
+
+    "Duralium(sp?)":
+    {
+        "book_effect": "greatly increases the power of another metal burned, burns itself and the outher metal out fast",
+        "int/ext": "",
+        "senses affected": [],
+        "radius":{
+            "notes": "",
+            "lv1": "",
+            "lv2": "",
+            "lv3":"" 
+        },
+        "burn_type": "",
+        "external_similar_mods":[]
     }
 }
