@@ -1,92 +1,371 @@
 {
-    "Tin":
-    {
-        "book_effect": "increases all senses (taste, hearing, smell, sight radius)",
-        "int/ext": "internal",
-        "senses affected": ["sight", "stops stun", "stops food posin", 
-            "increaded food happiness", "gets affects of nearby fights/converstations"],
-        "radius":{
-            "notes": "radius decreases when crowded.",
-            "lv1": "",
-            "lv2": "",
-            "lv3":"" 
-        },
-        "burn_type": "low",
-        "external_similar_mods":["fog of war", "food mods"]
+  "metals": {
+    "tin": {
+      "book_effect": "increases all senses (taste, hearing, smell, sight radius)",
+      "int/ext": "internal",
+      "push/pull": "pull",
+      "senses affected": [
+        "sight",
+        "stops stun",
+        "stops food posion",
+        "increaded food happiness",
+        "gets affects of nearby fights/converstations"
+      ],
+      "radius": {
+        "notes": "radius decreases when crowded.",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "low",
+      "external_similar_mods": [ "fog of war", "food mods" ]
     },
 
-    "Gold":
-    {
-        "book_effect": "makes the user see alternate versions of themselves",
-        "int/ext": "",
-        "senses affected": [],
-        "radius":{
-            "notes": "",
-            "lv1": "",
-            "lv2": "",
-            "lv3":"" 
-        },
-        "burn_type": "",
-        "external_similar_mods":[]
+    "pewter": {
+      "book_effect": "increases physical abilities",
+      "int/ext": "internal",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
     },
 
-    "Iron":
-    {
-        "book_effect": "allows the user to pull iron to them. This can move the user",
-        "int/ext": "",
-        "senses affected": [],
-        "radius":{
-            "notes": "",
-            "lv1": "",
-            "lv2": "",
-            "lv3":"" 
-        },
-        "burn_type": "",
-        "external_similar_mods":[]
+
+    "iron": {
+      "book_effect": "Pulls on nearby metals. This can move the user",
+      "int/ext": "external",
+      "push/pull": "pull",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
     },
 
-    "Steel":
-    {
-        "book_effect": "allows the user to push steel away from them",
-        "int/ext": "",
-        "senses affected": [],
-        "radius":{
-            "notes": "",
-            "lv1": "",
-            "lv2": "",
-            "lv3":"" 
-        },
-        "burn_type": "",
-        "external_similar_mods":[]
+    "steel": {
+      "book_effect": "Pushes on nearby metals.",
+      "int/ext": "external",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
     },
 
-    "Bronze": 
-    {
-        "book_effect": "allows the user to see sources of metal nearby",
-        "int/ext": "",
-        "senses affected": [],
-        "radius":{
-            "notes": "",
-            "lv1": "",
-            "lv2": "",
-            "lv3":"" 
-        },
-        "burn_type": "",
-        "external_similar_mods":[]
+    "bronze": {
+      "book_effect": "Can hear allomantic pulses.",
+      "int/ext": "internal",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
     },
 
-    "Duralium(sp?)":
-    {
-        "book_effect": "greatly increases the power of another metal burned, burns itself and the outher metal out fast",
-        "int/ext": "",
-        "senses affected": [],
-        "radius":{
-            "notes": "",
-            "lv1": "",
-            "lv2": "",
-            "lv3":"" 
-        },
-        "burn_type": "",
-        "external_similar_mods":[]
+    "copper": {
+      "book_effect": "Hides allomantic pulses.",
+      "int/ext": "internal",
+      "push/pull": "pull",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "brass": {
+      "book_effect": "Soothes/dampens emotions.",
+      "int/ext": "external",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "zinc": {
+      "book_effect": "Enflames/riots emotions.",
+      "int/ext": "external",
+      "push/pull": "pull",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "gold": {
+      "book_effect": "Reveals your past self. makes the user see alternate versions of themselves",
+      "int/ext": "internal",
+      "push/pull": "pull",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "electrum": {
+      "book_effect": "Reveals your future.",
+      "int/ext": "internal",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "bendalloy": {
+      "book_effect": "Speeds up time.",
+      "int/ext": "external",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": [ "vanilla psycasts expanded" ]
+    },
+
+    "cadmium": {
+      "book_effect": "Slows down time.",
+      "int/ext": "external",
+      "push/pull": "pull",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "duralumin": {
+      "book_effect": "Enhances current metal burned. burns the current metal out completely",
+      "int/ext": "internal",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "aluminum": {
+      "book_effect": "Wipes internal allomantic reserves.",
+      "int/ext": "internal",
+      "push/pull": "pull",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "chromimum": {
+      "book_effect": "wipes allomantic reserves of target.",
+      "int/ext": "external",
+      "push/pull": "pull",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "necrosil": {
+      "book_effect": "enhances allomantic burn of target.",
+      "int/ext": "external",
+      "push/pull": "push",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+
+    "atium": {
+      "shard": "ruin",
+      "book_effect": "Reveals other future.",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "pure atium": {
+      "shard": "ruin",
+      "book_effect": "gives expanded vision of the future.",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+
+    "malatium": {
+      "shard": "ruin",
+      "book_effect": "See into another persons past.",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+    "lerasium": {
+      "shard": "preservation",
+      "book_effect": "Turns one into a mistborn or increases ones allomantic power.",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
+    },
+    "lerasium alloy": {
+      "shard": "preservation",
+      "book_effect": "creates mistborns (lerasium + tin = tineye alloy).",
+      "senses affected": [],
+      "radius": {
+        "notes": "",
+        "lv1": "",
+        "lv2": "",
+        "lv3": ""
+      },
+      "burn_type": "",
+      "external_similar_mods": []
     }
+
+
+  },
+  "genes": {
+    "tineye": {
+      "metal": "tin"
+    },
+    "thug": {
+      "metal": "pewter"
+    },
+    "lurcher": {
+      "metal": "iron"
+    },
+    "coinshot": {
+      "metal": "steel"
+    },
+    "soother": {
+      "metal": "brass"
+    },
+    "rioter": {
+      "metal": "zinc"
+    },
+    "seeker": {
+      "metal": "bronze"
+    },
+    "smoker": {
+      "metal": "copper"
+    },
+    "duralumin gnat": {
+      "metal": "duralumin"
+    },
+    "aluminum gnat": {
+      "metal": "aluminum"
+    },
+    "augur": {
+      "metal": "gold"
+    },
+    "oracle": {
+      "metal": "electrum"
+    },
+    "nicroburst": {
+      "metal": "nicrosil"
+    },
+    "leecher": {
+      "metal": "chromium"
+    },
+    "pulser": {
+      "metal": "cadmium"
+    },
+    "slider": {
+      "metal": "bendalloy"
+    }
+  }
 }
