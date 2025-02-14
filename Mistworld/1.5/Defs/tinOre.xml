@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+		<defName>Cosmere_TinOre</defName>
+		<label>tin ore</label>
+		<description>A raw tin ore, can be processed into an ingot or used directly for vial creation.</description>
+		<graphicData>
+			<texPath>Resources/TinOre</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>13.5</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<healthAffectsPrice>true</healthAffectsPrice>
+		<thingCategories>
+			<li>Cosmere_RawOres</li>
+		</thingCategories>
+		<deepCommonality>5</deepCommonality>
+		<deepCountPerPortion>45</deepCountPerPortion>
+		<deepLumpSizeRange>20~30</deepLumpSizeRange>
+		<burnableByRecipe>false</burnableByRecipe>
+		<!--smeltable>true</smeltable-->
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<!-- <butcherProducts>
+			<DankPyon_IronIngot>1</DankPyon_IronIngot>
+		</butcherProducts> -->
+	</ThingDef>
+</Defs>
