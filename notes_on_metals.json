@@ -18,7 +18,8 @@
         "lv3": ""
       },
       "burn_type": "low",
-      "external_similar_mods": [ "fog of war", "food mods" ]
+      "external_similar_mods": [ "fog of war", "vanilla cooking expanded" ],
+      "cost/pound": "13.50"
     },
 
     "pewter": {
@@ -33,7 +34,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "13.50"
     },
 
 
@@ -49,7 +51,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": ".048"
     },
 
     "steel": {
@@ -64,7 +67,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": ".208"
     },
 
     "bronze": {
@@ -79,7 +83,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "2.24"
     },
 
     "copper": {
@@ -94,7 +99,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "4.50"
     },
 
     "brass": {
@@ -109,7 +115,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "2.08"
     },
 
     "zinc": {
@@ -124,7 +131,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "1.28"
     },
 
     "gold": {
@@ -139,7 +147,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "40500.00"
     },
 
     "electrum": {
@@ -154,7 +163,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "13.50"
     },
 
     "bendalloy": {
@@ -169,7 +179,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": [ "vanilla psycasts expanded" ]
+      "external_similar_mods": [ "vanilla psycasts expanded" ],
+      "cost/pound": "13.50"
     },
 
     "cadmium": {
@@ -184,7 +195,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "1.76"
     },
 
     "duralumin": {
@@ -199,7 +211,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "1.17"
     },
 
     "aluminum": {
@@ -214,7 +227,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "1.19"
     },
 
     "chromimum": {
@@ -229,7 +243,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "2.72"
     },
 
     "necrosil": {
@@ -244,7 +259,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "13.50"
     },
 
 
@@ -259,7 +275,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "14250"
     },
 
     "pure atium": {
@@ -273,7 +290,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "13.50"
     },
 
     "malatium": {
@@ -287,7 +305,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "13.50"
     },
     "lerasium": {
       "shard": "preservation",
@@ -300,7 +319,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "13.50"
     },
     "lerasium alloy": {
       "shard": "preservation",
@@ -313,7 +333,8 @@
         "lv3": ""
       },
       "burn_type": "",
-      "external_similar_mods": []
+      "external_similar_mods": [],
+      "cost/pound": "13.50"
     }
 
 

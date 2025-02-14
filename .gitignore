@@ -398,3 +398,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Mistworld/1.5/Defs
+/Mistworld/Textures/Things/Item
